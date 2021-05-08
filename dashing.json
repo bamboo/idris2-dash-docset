@@ -1,0 +1,21 @@
+{
+    "name": "Idris 2",
+    "package": "idris2",
+    "index": "index.html",
+    "selectors": {
+        "dt span.name.function": "Function",
+        "dt span.name.type": "Type",
+        "dt span.name.constructor": "Constructor",
+        "body.namespace div h1": "Namespace",
+        "body.index div h1": {
+            "type": "Package",
+            "regexp": "Package (.+) - Namespaces",
+            "replacement": "$1",
+            "matchpath": ".*/index\\.html"
+        }
+    },
+    "ignore": [],
+    "icon32x32": "../idris2/icons/idris-64x64.png",
+    "allowJS": false,
+    "ExternalURL": ""
+}
